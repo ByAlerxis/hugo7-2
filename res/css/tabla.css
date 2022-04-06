@@ -29,11 +29,12 @@
     border-bottom: 2px solid #025f21;
 }
 
-.tabla td{
+.tabla td {
     border: 1px solid #ddd;
     text-align: center;
     font-size: 25px;
 }
+
 .tabla th {
     padding: 10px;
     border: 1px solid #ddd;
@@ -75,4 +76,47 @@
 
 .op a:hover {
     background: #bf2ecc;
+}
+
+.form {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    background: #191919;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cas input {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 500px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.cas a {
+    background: #6b7467;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #bf2ecc;
+    padding: 14px 20px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cas a:hover {
+    border-color: #2ecc71;
+    background: #2ecc71;
 }
