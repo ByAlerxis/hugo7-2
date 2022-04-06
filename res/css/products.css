@@ -1,0 +1,53 @@
+.form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background: #191919;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.form h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form input {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 500px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form input:focus {
+    width: 550px;
+    border-color: #2ecc71;
+}
+
+.add{
+    text-decoration: none;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.add:hover {
+    background: #2ecc71;
+    color: white;
+}
